@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/styles/navbar.css */
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* src/styles/Footer.css */
+.footer-container {
+  background-color: black;
+  padding: 20px; /* Ajusta el relleno según tus preferencias */
+  color: white;
+  text-align: center;
+  margin-top: 13%;
+}
+
+
