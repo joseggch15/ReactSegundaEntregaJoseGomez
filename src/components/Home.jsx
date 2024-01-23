@@ -33,9 +33,13 @@ const Home = () => {
         <h2>Únete a Nuestro Boletín</h2>
         <NewsletterSignup />
       </section>
-      <Footer />
     </div>
   );
 };
+
+
+
+
+
 
 export default Home;

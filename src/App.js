@@ -22,8 +22,9 @@ const App = () => {
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/footer" element={<Footer />} />
+      
       </Routes>
+      <Footer />
     </Router>
   );
 };

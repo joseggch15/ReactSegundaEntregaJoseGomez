@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/src/components/Home.js">Home</Link>
-      <Link to="/category/vehiculos">Inmuebles</Link>
+      <Link to="/category/vehiculos">Productos</Link>
       <Link to="/about-us">Acerca de nosotros</Link>
       <Link to="/register">Registro</Link>
     </nav>
